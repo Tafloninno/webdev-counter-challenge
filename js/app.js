@@ -28,7 +28,7 @@ function decrementCount() {
 
 function resetCount() {
     // Write the relevant code in this block
-   
+    count = 0
 }
 
 function renderUpdatedCount() {
@@ -47,7 +47,7 @@ incrementBtn.addEventListener("click", function () {
 
 resetBtn.addEventListener("click", function () {
     // Write code below this line
-    
+    resetCount()
     // STOP HERE
     renderUpdatedCount();
 });
