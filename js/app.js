@@ -11,12 +11,17 @@ const decrementBtn = document.querySelector(".decrement-btn");
 function incrementCount() {
     // Write the relevant code in this block
     count ++
+    decrementBtn.disabled = false
 }
 
 
 function decrementCount() {
     // Write the relevant code in this block
- 
+    if(count > 0){
+        count--
+    }else{
+        decrementBtn.disabled = true
+    }
     
 }
 
@@ -49,7 +54,7 @@ resetBtn.addEventListener("click", function () {
 
 decrementBtn.addEventListener("click", function () {
     // Write code below this line
-    
+    decrementCount()
     // STOP HERE
     renderUpdatedCount();
 });
