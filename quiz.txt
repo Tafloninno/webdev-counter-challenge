@@ -1,10 +1,13 @@
 1. Why do you use "using strict" at the top of your JS files?
-
+   - To enable Strict Mode which detects common errors like use of undeclared variables
+   - makes code run faster
 2. What does line 3 mean?
-
+   -count variable is set to 0 as the initial value
 3. What is happening on lines 5-8 and why?
-
+   -Assigning html classes to variables to be used in the code
 4. If you implemented the functionality of the buttons,
    why do you think I wrote the JS code the way I did?
+   - To Allow easy Readability
+   - Easy reusability
 
    
